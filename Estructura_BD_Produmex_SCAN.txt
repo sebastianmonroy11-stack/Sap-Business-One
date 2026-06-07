@@ -1,0 +1,3818 @@
+Produmex SCAN Database Structure 19.1.
+Table name
+Field name
+
+Table description
+Field description
+
+BXPAUDIT
+
+Audit
+
+BXPAONam
+
+Add On Name
+
+nvarchar(100)
+
+BXPAOVer
+
+Add On Version
+
+nvarchar(100)
+
+BXPDate
+
+Date
+
+datetime
+
+BXPMsg
+
+Message
+
+ntext(8)
+
+BXPMsgTa
+
+Message Table
+
+nvarchar(100)
+
+BXPMsgTy
+
+Message Type
+
+Data type
+
+PK Table
+
+char(1), not null, default: D
+Delete
+Insert
+I
+D
+
+Row Type
+
+BXPRowTy
+
+N
+
+None
+
+U
+
+Update
+
+char(1), not null, default: D
+DB Modification
+
+D
+N
+
+None
+
+T
+
+Transact
+
+W
+
+Warning
+
+BXPSeqNo
+
+Sequence Number
+
+nvarchar(50), not null
+
+BXPSrc
+
+Source Machine
+
+nvarchar(100), not null
+
+BXPStack
+
+Stack Trace
+
+ntext(8), not null
+
+BXPTime
+
+Time
+
+int, not null
+
+BXPTrxID
+
+TransactionID
+
+nvarchar(100), not null
+
+BXPTrxIn
+
+Transaction Input
+
+ntext(8), not null
+
+BXPTrxNm
+
+Transaction Name
+
+nvarchar(100), not null
+
+BXPTrxTy
+
+Transaction Type
+
+nvarchar(100), not null
+
+BXPUsrNm
+
+User Name
+
+nvarchar(100), not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+1
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPCONFIG
+
+Configuration
+
+BXPDescr
+
+Description
+
+ntext(8), not null
+
+BXPValue
+
+Value
+
+nvarchar(100), not null
+
+BXPVType
+
+Value Type
+
+Data type
+
+PK Table
+
+char(1), not null, default: 1
+String
+
+1
+
+Last Modif.
+
+BXPRowVr
+
+2
+
+2
+
+Float
+
+3
+4
+
+Integer
+
+5
+
+Path
+
+6
+7
+
+Date
+Time
+
+8
+
+Valid Values
+
+9
+A
+
+File Name
+
+nvarchar(20), not null
+
+Boolean
+
+File Name Must Exists
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPCTRLPREFS
+
+ControlPreferences
+
+BXPCapt
+
+Caption
+
+nvarchar(100), not null
+
+BXPColID
+
+ColumnID
+
+nvarchar(100), not null
+
+BXPFrmID
+
+FormID
+
+nvarchar(100), not null
+
+BXPIsVis
+
+Is Visible
+
+Data type
+
+char(1), not null, default: N
+N
+Y
+
+BXPItmID
+
+ItemID
+
+nvarchar(100), not null
+
+BXPUser
+
+User Sign
+
+int, not null
+
+BXPVindx
+
+Visual Index
+
+int, not null
+
+BXPWidth
+
+Width
+
+int, not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+3
+
+PK Table
+
+No
+Yes
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPCUSTFD
+
+CustomizationFields
+
+BXPDREP
+
+Data Repeater
+
+nvarchar(32), not null
+
+BXPDecP
+
+Decimal Places
+
+int, not null
+
+BXPDEF
+
+Default Value
+
+nvarchar(100), not null
+
+BXPESIZE
+
+Edit Size
+
+int, not null
+
+BXPFDTyp
+
+Field Display Type
+
+BXPFName
+
+Field Name
+
+BXPFType
+
+Field Type
+
+Data type
+
+PK Table
+
+int, not null, default: 0
+0
+
+None
+
+1
+2
+
+Address
+GPS Coordinate
+
+3
+
+Link To Web
+
+4
+5
+
+Telephone
+
+6
+
+Photo
+
+7
+
+Signature
+
+Email
+
+nvarchar(32), not null
+int, not null, default: 0
+0
+
+String
+
+1
+10
+
+Date
+File Name
+
+11
+
+Folder
+
+12
+13
+
+Image
+
+2
+
+Time
+
+3
+4
+
+Value
+Measurement
+
+5
+
+Quantity
+
+6
+7
+
+Percent
+
+8
+
+Integer
+
+9
+
+Boolean
+
+BXPFold
+
+Folder Name
+
+nvarchar(100), not null
+
+BXPLBL
+
+Label
+
+nvarchar(250), not null
+
+BXPLang
+
+Language Code
+
+nvarchar(16), not null
+
+BXPMod
+
+Module
+
+nvarchar(100), not null
+
+BXPOnExt
+
+On External Form
+
+Button
+
+Price
+
+char(1), not null, default: N
+No
+
+N
+Y
+BXPPOSD
+
+Position Data
+
+BXPPROT
+
+Protected
+
+Yes
+
+nvarchar(250), not null
+char(1), not null, default: N
+No
+
+N
+Y
+Read Only
+
+BXPROnly
+
+Yes
+
+char(1), not null, default: N
+No
+
+N
+Y
+BXPScr
+
+Screen
+
+nvarchar(100), not null
+
+BXPOrder
+
+Sort Order
+
+int, not null
+
+BXPTable
+
+Table Name
+
+nvarchar(32), not null
+
+4
+
+Yes
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+Data type
+
+BXPVVS
+
+Valid Values
+
+ntext(8), not null
+
+BXPVis
+
+Visible
+
+PK Table
+
+char(1), not null, default: Y
+No
+
+N
+Y
+Last Modif.
+
+BXPRowVr
+
+5
+
+nvarchar(20), not null
+
+Yes
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPCUSTSORTDEF
+
+CustSortingMethodDefinitions
+
+BXPDREP
+
+Data Repeater
+
+nvarchar(32), not null
+
+BXPDes
+
+Description
+
+nvarchar(64), not null
+
+BXPFl1
+
+Field1
+
+nvarchar(100), not null
+
+BXPFl2
+
+Field2
+
+nvarchar(100), not null
+
+BXPFl3
+
+Field3
+
+nvarchar(100), not null
+
+BXPFl4
+
+Field4
+
+nvarchar(100), not null
+
+BXPInd
+
+Index
+
+int, not null
+
+BXPSoM
+
+Mode
+
+Data type
+
+PK Table
+
+char(1), not null, default: A
+Ascending
+
+A
+
+D
+BXPMod
+
+Module
+
+nvarchar(100), not null
+
+BXPScr
+
+Screen
+
+nvarchar(100), not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+6
+
+Descending
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPFORMPREFS
+
+FormPreferences
+
+BXPCliID
+
+ClientID
+
+nvarchar(100), not null
+
+BXPFrmID
+
+FormID
+
+nvarchar(100), not null
+
+BXPKey
+
+Key
+
+nvarchar(100), not null
+
+BXPUser
+
+User Sign
+
+int, not null
+
+BXPVal
+
+Value
+
+nvarchar(100), not null
+
+BXPVindx
+
+Visual Index
+
+int, not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+7
+
+Data type
+
+PK Table
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLICFEAT
+
+LicensingService
+
+BXPActTl
+
+Active Till
+
+datetime, not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+8
+
+Data type
+
+PK Table
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLICIP
+
+LicenseableIPs
+
+BXPCmnt
+
+Comment
+
+nvarchar(100), not null
+
+BXPIPAdd
+
+IP Address
+
+nvarchar(100), not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+9
+
+Data type
+
+PK Table
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLICSET
+
+LicenseSets
+
+BXPDscp
+
+Description
+
+nvarchar(200), not null
+
+BXPExpDt
+
+Expiration Date
+
+datetime, not null
+
+BXPHwKey
+
+Hardware And Other Keys
+
+nvarchar(100), not null
+
+BXPLECod
+
+License Ext Code
+
+nvarchar(30), not null
+
+BXPLFVer
+
+License Format Version
+
+int, not null
+
+BXPLTyp
+
+License Type
+
+nvarchar(30), not null
+
+BXPModTk
+
+Module Token List
+
+ntext(8), not null
+
+BXPNumEm
+
+Number Of Employees
+
+int, not null
+
+BXPNumTe
+
+Number Of Terminals
+
+int, not null
+
+BXPNumUs
+
+Number Of Users
+
+int, not null
+
+BXPSig
+
+Signature
+
+ntext(8), not null
+
+BXPSkeyF
+
+Signature KeyID
+
+nvarchar(32), not null
+
+BXPStDt
+
+Start Date
+
+datetime, not null
+
+BXPVersn
+
+Version
+
+int, not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+10
+
+Data type
+
+PK Table
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLICTER
+
+LicenseTerminals
+
+BXPComm
+
+Comment
+
+nvarchar(200), not null
+
+BXPIPAdd
+
+IP Address
+
+nvarchar(200), not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+11
+
+Data type
+
+PK Table
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLMSEMPPRINTER
+
+EmployeePrinters
+
+BXPEmpID
+
+EmployeeID
+
+int, not null
+
+BXPVisOr
+
+Visual Order
+
+int, not null
+
+BXPPrnCd
+
+Printer Code
+
+nvarchar(50), not null
+
+12
+
+Data type
+
+PK Table
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLMSMOBINVCNTDONE
+
+MobileInventoryCountingDone
+
+BXPBinCd
+
+Bin Code
+
+nvarchar(254), not null
+
+BXPCtrID
+
+Counter UserID
+
+int, not null
+
+BXPDocEn
+
+Doc Entry
+
+int, not null
+
+BXPIsSyn
+
+Is Synchronized
+
+Data type
+
+char(1), not null, default: N
+N
+Y
+
+BXPWHCod
+
+13
+
+Warehouse Code
+
+PK Table
+
+nvarchar(254), not null
+
+No
+Yes
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLMSMOBINVCOUNT
+
+MobileInventoryCounting
+
+BXPBatA1
+
+Batch Attribute1
+
+nvarchar(32), not null
+
+BXPBatA2
+
+Batch Attribute2
+
+nvarchar(32), not null
+
+BXPBatDe
+
+Batch Details
+
+ntext(8), not null
+
+BXPBatNm
+
+Batch Number
+
+nvarchar(32), not null
+
+BXPBinCd
+
+Bin Code
+
+nvarchar(254), not null
+
+BXPBinNm
+
+Bin Internal Number
+
+int, not null
+
+BXPCntd
+
+Counted
+
+Data type
+
+PK Table
+
+char(1), not null, default: N
+No
+
+N
+Y
+
+Yes
+
+BXPCQty1
+
+Counted Quantity1
+
+numeric(16), not null
+
+BXPCQty2
+
+Counted Quantity2
+
+numeric(16), not null
+
+BXPCtrID
+
+Counter UserID
+
+int, not null
+
+BXPDocEn
+
+Doc Entry
+
+int, not null
+
+BXPExpDt
+
+Expiry Date
+
+datetime, not null
+
+BXPFreez
+
+Freeze
+
+char(1), not null, default: N
+No
+N
+Y
+
+BXPItmCd
+
+Item Code
+
+nvarchar(254), not null
+
+BXPLoc
+
+Location
+
+nvarchar(254), not null
+
+BXPPrdDt
+
+Production Date
+
+datetime, not null
+
+BXPSerA1
+
+Serial Attribute1
+
+nvarchar(32), not null
+
+BXPSerA2
+
+Serial Attribute2
+
+nvarchar(32), not null
+
+BXPSerDe
+
+Serial Details
+
+ntext(8), not null
+
+BXPSerExpDt
+
+Serial Expiry Date
+
+datetime, not null
+
+BXPSerNm
+
+Serial Number
+
+nvarchar(32), not null
+
+BXPSerPrdDt
+
+Serial Production Date
+
+datetime, not null
+
+BXPUoMEn
+
+UoM Abs Entry
+
+int, not null
+
+BXPUoMCd
+
+UoM Code
+
+nvarchar(254), not null
+
+BXPWHCod
+
+Warehouse Code
+
+nvarchar(254), not null
+
+14
+
+Yes
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLMSMOBLOG
+
+MobileLog
+
+BXPActn
+
+Action
+
+nvarchar(254), not null
+
+BXPBsDcE
+
+Base Doc Entry
+
+int, not null
+
+BXPBsDcL
+
+Base Doc Line
+
+int, not null
+
+BXPBsDcN
+
+Base Doc Num
+
+nvarchar(254), not null
+
+BXPBsDcT
+
+Base Doc Type
+
+Data type
+
+int, not null, default: 0
+0
+
+None
+
+1250000001
+13
+
+Inventory Transfer Request
+A/R Invoice
+
+14
+
+A/R Credit Memo
+
+15
+156
+
+Delivery
+
+16
+
+Returns
+
+163
+164
+
+A/P Correction Invoice
+A/R Correction Invoice Reversal
+
+165
+
+A/R Correction Invoice
+
+166
+17
+
+A/R Correction Invoice Reversal
+
+18
+
+A/P Invoice
+
+19
+
+A/P Credit Memo
+
+-2
+
+Opening Balance
+
+20
+
+Goods Receipt PO
+
+202
+21
+
+Production Orders
+
+22
+
+Purchase Orders
+
+23
+
+Sales Quotations
+
+-5001
+
+Receipt From Production
+
+-5002
+
+Issue For Production
+
+-5003
+58
+
+Return From Production
+
+59
+
+Goods Receipt
+
+60
+67
+
+Goods Issue
+Inventory Transfer
+
+68
+
+Work Orders
+
+BXPBtSrN
+
+Batch Serial Number
+
+nvarchar(32), not null
+
+BXPBinCd
+
+Bin Code
+
+nvarchar(254), not null
+
+BXPBinTo
+
+Bin Code To
+
+nvarchar(254), not null
+
+BXPCrDEn
+
+Created Doc Entry
+
+int, not null
+
+BXPCrDTy
+
+Created Doc Type
+
+15
+
+PK Table
+
+Pick Lists
+
+Sales Orders
+
+Goods Returns
+
+Stock Update
+
+int, not null, default: 0
+0
+
+None
+
+1250000001
+
+Inventory Transfer Request
+
+13
+14
+
+A/R Invoice
+A/R Credit Memo
+
+15
+
+Delivery
+
+156
+
+Pick Lists
+
+16
+
+Returns
+
+163
+
+A/P Correction Invoice
+
+164
+165
+
+A/R Correction Invoice Reversal
+A/R Correction Invoice
+
+166
+
+A/R Correction Invoice Reversal
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+Data type
+
+18
+
+Sales Orders
+A/P Invoice
+
+19
+
+A/P Credit Memo
+
+-2
+20
+
+Opening Balance
+
+202
+
+Production Orders
+
+21
+22
+
+Goods Returns
+Purchase Orders
+
+23
+
+Sales Quotations
+
+-5001
+-5002
+
+Receipt From Production
+
+-5003
+
+Return From Production
+
+58
+59
+
+Stock Update
+Goods Receipt
+
+60
+
+Goods Issue
+
+67
+
+Inventory Transfer
+
+68
+
+Work Orders
+
+17
+
+BXPDate
+
+Date
+
+datetime, not null
+
+BXPDocEn
+
+Doc Entry
+
+int, not null
+
+BXPDocLn
+
+Doc Line
+
+int, not null
+
+BXPDocNm
+
+Doc Num
+
+nvarchar(254), not null
+
+BXPDocTy
+
+Doc Type
+
+EmployeeID
+
+16
+
+Goods Receipt PO
+
+Issue For Production
+
+int, not null, default: 0
+1250000001
+
+None
+Inventory Transfer Request
+
+13
+
+A/R Invoice
+
+14
+15
+
+A/R Credit Memo
+
+156
+
+Pick Lists
+
+16
+163
+
+Returns
+A/P Correction Invoice
+
+164
+
+A/R Correction Invoice Reversal
+
+165
+166
+
+A/R Correction Invoice
+
+17
+
+Sales Orders
+
+18
+
+A/P Invoice
+
+19
+
+A/P Credit Memo
+
+-2
+
+Opening Balance
+
+20
+202
+
+Goods Receipt PO
+
+21
+
+Goods Returns
+
+22
+23
+
+Purchase Orders
+Sales Quotations
+
+-5001
+
+Receipt From Production
+
+-5002
+-5003
+
+Issue For Production
+
+58
+
+Stock Update
+
+59
+60
+
+Goods Receipt
+Goods Issue
+
+67
+
+Inventory Transfer
+
+68
+
+Work Orders
+
+0
+
+BXPEmpID
+
+PK Table
+
+int, not null
+
+Delivery
+
+A/R Correction Invoice Reversal
+
+Production Orders
+
+Return From Production
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+Data type
+
+BXPItmCd
+
+Item Code
+
+nvarchar(50), not null
+
+BXPModul
+
+Module
+
+nvarchar(254), not null
+
+BXPQtty
+
+Quantity
+
+numeric(16), not null
+
+BXPSec
+
+Second
+
+int, not null
+
+BXPTime
+
+Time
+
+int, not null
+
+BXPWHCod
+
+Warehouse Code
+
+nvarchar(8), not null
+
+BXPWHTo
+
+Warehouse Code To
+
+nvarchar(8), not null
+
+17
+
+PK Table
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLMSMOBPICK
+
+MobilePickingData
+
+BXPBtnNm
+
+Batch Number
+
+nvarchar(32), not null
+
+BXPBinCd
+
+Bin Code
+
+nvarchar(254), not null
+
+BXPBinNm
+
+Bin Internal Number
+
+int, not null
+
+BXPIsFld
+
+Is Failed
+
+Data type
+
+char(1), not null, default: N
+N
+Y
+
+Is Synchronized
+
+BXPIsSyn
+
+PK Table
+
+No
+Yes
+
+char(1), not null, default: N
+No
+
+N
+Y
+BXPItmCd
+
+Item Code
+
+nvarchar(50), not null
+
+BXPPkQty
+
+Picked Quantity
+
+numeric(16), not null
+
+BXPPkLEn
+
+Pick List Abs Entry
+
+int, not null
+
+BXPPkLLn
+
+Pick List Line Number
+
+int, not null
+
+BXPRBtNm
+
+Rec Batch Number
+
+nvarchar(32), not null
+
+BXPRBnCd
+
+Rec Bin Code
+
+nvarchar(254), not null
+
+BXPRBnNm
+
+Rec Bin Internal Number
+
+int, not null
+
+BXPRSrNm
+
+Rec Serial Number
+
+nvarchar(32), not null
+
+BXPSaOEn
+
+Sales Order Doc Entry
+
+int, not null
+
+BXPSaOLn
+
+Sales Order Line Number
+
+int, not null
+
+BXPSerNm
+
+Serial Number
+
+nvarchar(32), not null
+
+BXPWHCod
+
+Warehouse Code
+
+nvarchar(8), not null
+
+18
+
+Yes
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLMSMOBTEN
+
+MobileTransactionEntry
+
+BXPBAdDt
+
+Batch Admission Date
+
+datetime, not null
+
+BXPBatA1
+
+Batch Attribute1
+
+nvarchar(32), not null
+
+BXPBatA2
+
+Batch Attribute2
+
+nvarchar(32), not null
+
+BXPBExDt
+
+Batch Expiry Date
+
+datetime, not null
+
+BXPBMfDt
+
+Batch Manufacturing Date
+
+datetime, not null
+
+BXPBNot
+
+Batch Notes
+
+ntext(8), not null
+
+BXPBatNm
+
+Batch Number
+
+nvarchar(32), not null
+
+BXPBWAdD
+
+Batch Write Admission Date
+
+Data type
+
+PK Table
+
+char(1), not null, default: N
+No
+
+N
+Y
+BXPBWExD
+
+Batch Write Expiry Date
+
+char(1), not null, default: N
+No
+
+N
+Y
+BXPBWMfD
+
+Batch Write Manufacturing Date
+
+Yes
+
+Yes
+
+char(1), not null, default: N
+No
+
+N
+Y
+BXPBWNot
+
+Batch Write Notes
+
+Yes
+
+char(1), not null, default: N
+No
+
+N
+Y
+BXPBinCd
+
+Bin Code
+
+nvarchar(228), not null
+
+BXPBinNm
+
+Bin Code Internal Number
+
+int, not null
+
+BXPCmmnt
+
+Comments
+
+nvarchar(254), not null
+
+BXPDocEn
+
+Doc Entry
+
+int, not null
+
+BXPDocLn
+
+Doc Line
+
+int, not null
+
+BXPDocTy
+
+Doc Type
+
+19
+
+Yes
+
+int, not null, default: 0
+0
+
+None
+
+1250000001
+
+Inventory Transfer Request
+
+13
+14
+
+A/R Invoice
+
+15
+
+Delivery
+
+156
+
+Pick Lists
+
+16
+
+Returns
+
+163
+
+A/P Correction Invoice
+
+164
+165
+
+A/R Correction Invoice Reversal
+
+166
+
+A/R Correction Invoice Reversal
+
+17
+18
+
+Sales Orders
+A/P Invoice
+
+19
+
+A/P Credit Memo
+
+-2
+20
+
+Opening Balance
+
+202
+
+Production Orders
+
+21
+22
+
+Goods Returns
+Purchase Orders
+
+23
+
+Sales Quotations
+
+-5001
+
+Receipt From Production
+
+A/R Credit Memo
+
+A/R Correction Invoice
+
+Goods Receipt PO
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+Data type
+
+PK Table
+
+-5003
+
+Issue For Production
+Return From Production
+
+58
+
+Stock Update
+
+59
+60
+
+Goods Receipt
+
+67
+
+Inventory Transfer
+
+68
+
+Work Orders
+
+-5002
+
+BXPEmpID
+
+EmployeeID
+
+int, not null
+
+BXPHdCd
+
+Head Code
+
+nvarchar(50), not null
+
+BXPIsRej
+
+Is Rejected
+
+Goods Issue
+
+char(1), not null, default: N
+No
+
+N
+Y
+BXPItmCd
+
+Item Code
+
+nvarchar(50), not null
+
+BXPItmPU
+
+Items Per Unit
+
+numeric(16), not null
+
+BXPLoc
+
+Location
+
+nvarchar(228), not null
+
+BXPQty
+
+Quantity
+
+numeric(16), not null
+
+BXPSerA1
+
+Serial Attribute1
+
+nvarchar(32), not null
+
+BXPSerA2
+
+Serial Attribute2
+
+nvarchar(32), not null
+
+BXPSExDt
+
+Serial Expiry Date
+
+datetime, not null
+
+BXPSMfDt
+
+Serial Manufacturing Date
+
+datetime, not null
+
+BXPSNot
+
+Serial Notes
+
+ntext(8), not null
+
+BXPSerNm
+
+Serial Number
+
+nvarchar(32), not null
+
+BXPToBin
+
+To Bin Code
+
+nvarchar(228), not null
+
+BXPToBNm
+
+To Bin Code Internal Number
+
+int, not null
+
+BXPTrxSt
+
+Transaction Status
+
+int, not null, default: 20
+20
+
+UnderPreparation
+
+40
+60
+
+Pending
+Processed
+
+80
+
+Canceled
+
+BXPUoMAb
+
+UoM Abs Entry
+
+int, not null
+
+BXPUoMCd
+
+UoM Code
+
+nvarchar(228), not null
+
+BXPLnCod
+
+Line Code
+
+nvarchar(50), not null
+
+20
+
+Yes
+
+PK Column
+
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLMSMOBTHD
+
+MobileTransactionHead
+
+BXPBLUID
+
+Business Logic UnitID
+
+nvarchar(254), not null
+
+BXPCrdCd
+
+Card Code
+
+nvarchar(254), not null
+
+BXPCreDt
+
+Creation Date
+
+datetime, not null
+
+BXPCreTm
+
+Creation Time
+
+int, not null
+
+BXPDocDt
+
+Doc Date
+
+datetime, not null
+
+BXPDocEn
+
+Doc Entry
+
+int, not null
+
+BXPDocNm
+
+Doc Number
+
+int, not null
+
+BXPDocTy
+
+Doc Type
+
+BXPExDcN
+
+External Doc Number
+
+BXPIsDft
+
+Is Draft
+
+Data type
+
+PK Table
+
+int, not null, default: 0
+0
+
+None
+
+1250000001
+13
+
+Inventory Transfer Request
+
+14
+
+A/R Credit Memo
+
+15
+
+Delivery
+
+156
+
+Pick Lists
+
+16
+
+Returns
+
+163
+164
+
+A/P Correction Invoice
+
+165
+
+A/R Correction Invoice
+
+166
+17
+
+A/R Correction Invoice Reversal
+Sales Orders
+
+18
+
+A/P Invoice
+
+19
+-2
+
+A/P Credit Memo
+
+20
+
+Goods Receipt PO
+
+202
+21
+
+Production Orders
+Goods Returns
+
+22
+
+Purchase Orders
+
+23
+-5001
+
+Sales Quotations
+
+-5002
+
+Issue For Production
+
+-5003
+58
+
+Return From Production
+Stock Update
+
+59
+
+Goods Receipt
+
+60
+
+Goods Issue
+
+67
+
+Inventory Transfer
+
+68
+
+Work Orders
+
+A/R Invoice
+
+A/R Correction Invoice Reversal
+
+Opening Balance
+
+Receipt From Production
+
+nvarchar(254), not null
+char(1), not null, default: N
+No
+
+N
+Y
+BXPOrigS
+
+Originator System
+
+nvarchar(254), not null
+
+BXPPosDt
+
+Posting Date
+
+datetime, not null
+
+BXPPosTm
+
+Posting Time
+
+int, not null
+
+BXPPrcDt
+
+Processing Date
+
+datetime, not null
+
+BXPPrcMs
+
+Processing Error Message
+
+ntext(8), not null
+
+BXPPrcEr
+
+Processing Has Error
+
+char(1), not null, default: N
+No
+
+N
+
+21
+
+Yes
+
+PK Column
+
+Table name
+Field name
+
+Table description
+Field description
+
+Data type
+
+Y
+BXPRetry
+
+Processing Retry Count
+
+int, not null
+
+BXPPrcTm
+
+Processing Time
+
+int, not null
+
+BXPRef2
+
+Ref2
+
+nvarchar(254), not null
+
+BXPRemrk
+
+Remarks
+
+nvarchar(254), not null
+
+BXPTrxSt
+
+Transaction Status
+
+22
+
+PK Table
+
+Yes
+
+int, not null, default: 20
+20
+
+UnderPreparation
+
+40
+60
+
+Pending
+
+80
+
+Canceled
+
+Processed
+
+PK Column
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLMSMOBTLN
+
+MobileTransactionLine
+
+BXPActCd
+
+Account Code
+
+nvarchar(254), not null
+
+BXPBsCrd
+
+Base Card Code
+
+nvarchar(254), not null
+
+BXPBsDcE
+
+Base Doc Entry
+
+int, not null
+
+BXPBsDcL
+
+Base Doc Line
+
+int, not null
+
+BXPBsDcT
+
+Base Doc Type
+
+Close Source Line
+
+BXPClsLn
+
+Data type
+
+PK Table
+
+int, not null, default: 0
+0
+
+None
+
+1250000001
+13
+
+Inventory Transfer Request
+A/R Invoice
+
+14
+
+A/R Credit Memo
+
+15
+156
+
+Delivery
+
+16
+
+Returns
+
+163
+164
+
+A/P Correction Invoice
+A/R Correction Invoice Reversal
+
+165
+
+A/R Correction Invoice
+
+166
+17
+
+A/R Correction Invoice Reversal
+
+18
+
+A/P Invoice
+
+19
+
+A/P Credit Memo
+
+-2
+
+Opening Balance
+
+20
+
+Goods Receipt PO
+
+202
+21
+
+Production Orders
+
+22
+
+Purchase Orders
+
+23
+
+Sales Quotations
+
+-5001
+
+Receipt From Production
+
+-5002
+
+Issue For Production
+
+-5003
+58
+
+Return From Production
+
+59
+
+Goods Receipt
+
+60
+67
+
+Goods Issue
+Inventory Transfer
+
+68
+
+Work Orders
+
+Pick Lists
+
+Sales Orders
+
+Goods Returns
+
+Stock Update
+
+char(1), not null, default: N
+No
+
+N
+Y
+BXPCurcy
+
+Currency
+
+nvarchar(254), not null
+
+BXPOcrCd
+
+Distribution Rule Code
+
+nvarchar(254), not null
+
+BXPDocEn
+
+Doc Entry
+
+int, not null
+
+BXPDocLn
+
+Doc Line
+
+int, not null
+
+BXPDocTy
+
+Doc Type
+
+23
+
+Yes
+
+int, not null, default: 0
+0
+
+None
+
+1250000001
+
+Inventory Transfer Request
+
+13
+
+A/R Invoice
+
+14
+
+A/R Credit Memo
+
+15
+156
+
+Delivery
+
+16
+
+Returns
+
+Pick Lists
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+Data type
+
+164
+
+A/P Correction Invoice
+A/R Correction Invoice Reversal
+
+165
+
+A/R Correction Invoice
+
+166
+17
+
+A/R Correction Invoice Reversal
+
+18
+
+A/P Invoice
+
+19
+-2
+
+A/P Credit Memo
+Opening Balance
+
+20
+
+Goods Receipt PO
+
+202
+21
+
+Production Orders
+
+22
+
+Purchase Orders
+
+23
+-5001
+
+Sales Quotations
+Receipt From Production
+
+-5002
+
+Issue For Production
+
+-5003
+
+Return From Production
+
+58
+
+Stock Update
+
+59
+
+Goods Receipt
+
+60
+67
+
+Goods Issue
+Inventory Transfer
+
+68
+
+Work Orders
+
+163
+
+BXPItmCd
+
+Item Code
+
+nvarchar(50), not null
+
+BXPPcLst
+
+Price List Number
+
+int, not null
+
+BXPToWH
+
+ToWH Code
+
+nvarchar(8), not null
+
+BXPTrxSt
+
+Transaction Status
+
+Sales Orders
+
+Goods Returns
+
+int, not null, default: 20
+20
+
+UnderPreparation
+
+40
+60
+
+Pending
+Processed
+
+80
+
+Canceled
+
+BXPUPric
+
+Unit Price
+
+numeric(16), not null
+
+BXPUoMAb
+
+UoM Abs Entry
+
+int, not null
+
+BXPUoMCd
+
+UoM Code
+
+nvarchar(228), not null
+
+BXPWHCod
+
+WH Code
+
+nvarchar(8), not null
+
+BXPHdCd
+
+Head Code
+
+nvarchar(50), not null
+
+24
+
+PK Table
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLMSPRINTER
+
+Printers
+
+BXPDescr
+
+Description
+
+nvarchar(254), not null
+
+BXPIPAdd
+
+IP Address
+
+nvarchar(254), not null
+
+BXPIsAct
+
+Is Active
+
+Data type
+
+PK Table
+
+char(1), not null, default: N
+No
+
+N
+Y
+Is Network Printer
+
+BXPIsNet
+
+Yes
+
+char(1), not null, default: N
+No
+
+N
+Y
+BXPPrnNm
+
+Local Printer Name
+
+nvarchar(254), not null
+
+BXPPort
+
+Port Number
+
+int, not null
+
+BXPPrnTy
+
+Printer Type
+
+Yes
+
+nvarchar(254), not null, default: CR
+Crystal
+
+CR
+
+25
+
+ZC
+
+ZebraCPCL
+
+ZZ
+
+ZebraZPL
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLMSPRINTLAYOUT
+
+PrinterLayouts
+
+BXPVisOr
+
+Visual Order
+
+int, not null
+
+BXPLayCd
+
+Layout Set Code
+
+nvarchar(50), not null
+
+BXPPrnCd
+
+Printer Code
+
+nvarchar(50), not null
+
+26
+
+Data type
+
+PK Table
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLMSPRINTLAYSET
+
+PrintingLayoutSet
+
+BXPBinCd
+
+Bin Code Layout File
+
+nvarchar(254), not null
+
+BXPDescr
+
+Description
+
+nvarchar(254), not null
+
+BXPStBLb
+
+Stock Batch Label Layout File
+
+nvarchar(254), not null
+
+BXPStkLb
+
+Stock Normal Label Layout File
+
+nvarchar(254), not null
+
+BXPStSLb
+
+Stock Serial Label Layout File
+
+nvarchar(254), not null
+
+27
+
+Data type
+
+PK Table
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLMSUSRPREF
+
+UserPreferences
+
+BXPEmpID
+
+EmployeeID
+
+int, not null
+
+BXPMnuCd
+
+Main Menu Code
+
+nvarchar(254), not null
+
+BXPVisOr
+
+Visual Order
+
+int, not null
+
+28
+
+Data type
+
+PK Table
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPLOG
+
+Log
+
+BXPAONam
+
+Add On Name
+
+nvarchar(100), not null
+
+BXPAOVer
+
+Add On Version
+
+nvarchar(100), not null
+
+BXPDate
+
+Date
+
+datetime, not null
+
+BXPDev
+
+Device
+
+nvarchar(100), not null
+
+BXPDocEn
+
+Doc Entry
+
+int, not null
+
+BXPDocNm
+
+Doc Number
+
+int, not null
+
+BXPDocTy
+
+Doc Type
+
+int, not null
+
+BXPItmCd
+
+Item Code
+
+nvarchar(100), not null
+
+BXPLnNum
+
+Line Number
+
+int, not null
+
+BXPMsg
+
+Message
+
+ntext(8), not null
+
+BXPMilSc
+
+Milli Seconds
+
+int, not null
+
+BXPOptID
+
+OptionalID
+
+nvarchar(100), not null
+
+BXPPars
+
+Parameters
+
+ntext(8), not null
+
+BXPPrice
+
+Price
+
+numeric(16), not null
+
+BXPQty
+
+Quantity
+
+numeric(16), not null
+
+BXPRes
+
+Result
+
+ntext(8), not null
+
+BXPSec
+
+Seconds
+
+int, not null
+
+BXPStack
+
+Stack Trace
+
+ntext(8), not null
+
+BXPTime
+
+Time
+
+int, not null
+
+BXPType
+
+Type
+
+nvarchar(100), not null
+
+BXPUsrNm
+
+User Name
+
+nvarchar(100), not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+29
+
+Data type
+
+PK Table
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPREPORT
+
+ReportModule
+
+BXPFILE
+
+File
+
+nvarchar(100), not null
+
+BXPPrnNm
+
+Printer Name
+
+nvarchar(254), not null
+
+BXPRPTCD
+
+Rpt Code
+
+nvarchar(50), not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+30
+
+Data type
+
+PK Table
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPRPTPF
+
+ReportLayoutPref
+
+BXPLayCd
+
+Layout Code
+
+nvarchar(50), not null
+
+BXPRptCd
+
+Rtp Code
+
+nvarchar(50), not null
+
+BXPUsrID
+
+UserID
+
+int, not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+31
+
+Data type
+
+PK Table
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPRPTTP
+
+ReportType
+
+BXPRowVr
+
+Last Modif.
+
+32
+
+Data type
+
+nvarchar(20), not null
+
+PK Table
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPSEQUENCE
+
+Sequence
+
+BXPLstNm
+
+Last Number
+
+int, not null, default: 0
+
+BXPLtNmH
+
+Last Number Hi
+
+int, not null, default: 0
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+33
+
+Data type
+
+PK Table
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPSYNCOBJC
+
+SyncObjectConfig
+
+BXPAddOn
+
+Add On
+
+nvarchar(100), not null
+
+BXPOType
+
+Obj Type
+
+nvarchar(20), not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+34
+
+Data type
+
+PK Table
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPSYNCQ
+
+SyncQueue
+
+BXPAddOn
+
+Add On
+
+nvarchar(100), not null
+
+BXPCDate
+
+Created Date
+
+datetime, not null
+
+BXPCTime
+
+Created Time
+
+int, not null
+
+BXPErrMs
+
+Error Message
+
+nvarchar(240), not null
+
+BXPKCol
+
+Key Columns
+
+nvarchar(254), not null
+
+BXPKVal
+
+Key Values
+
+nvarchar(254), not null
+
+BXPMDate
+
+Modify Date
+
+datetime, not null
+
+BXPMTime
+
+Modify Time
+
+int, not null
+
+BXPOType
+
+Obj Type
+
+nvarchar(20), not null
+
+BXPPrcsd
+
+Processed
+
+Data type
+
+char(1), not null, default: N
+No
+Yes
+Y
+N
+
+BXPPStat
+
+Process State
+
+BXPRData
+
+Retry Data
+
+nvarchar(70), not null
+
+BXPTType
+
+Transaction Type
+
+char(1), not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+35
+
+char(1), not null
+
+PK Table
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPTCCONF
+
+ThinClientConfiguration
+
+BXPCCode
+
+Config Code
+
+nvarchar(100), not null
+
+BXPDefV
+
+Default Value
+
+nvarchar(250), not null
+
+BXPDesc
+
+Description
+
+nvarchar(250), not null
+
+BXPLDesc
+
+Long Description
+
+ntext(8), not null
+
+BXPMod
+
+Module
+
+nvarchar(100), not null
+
+BXPOFUS
+
+Only For Users
+
+nvarchar(250), not null
+
+BXPSMod
+
+Sub Module
+
+nvarchar(100), not null
+
+BXPUEdit
+
+User Editable
+
+Data type
+
+PK Table
+
+char(1), not null, default: Y
+No
+
+N
+Y
+BXPVVAL
+
+Valid Values
+
+nvarchar(250), not null
+
+BXPValue
+
+Value
+
+nvarchar(250), not null
+
+BXPVType
+
+Value Type
+
+Yes
+
+char(1), not null, default: 1
+String
+
+1
+
+Last Modif.
+
+BXPRowVr
+
+36
+
+2
+
+Float
+
+3
+4
+
+Integer
+
+5
+
+Path
+
+6
+7
+
+Date
+Time
+
+8
+
+Valid Values
+
+9
+A
+
+File Name
+
+nvarchar(20), not null
+
+Boolean
+
+File Name Must Exists
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPTRANCUST
+
+TranslationCustomization
+
+BXPAddOn
+
+Add On
+
+nvarchar(254), not null
+
+BXPComm
+
+Comments
+
+nvarchar(254), not null
+
+BXPCust
+
+Customized
+
+Data type
+
+PK Table
+
+char(1), not null, default: N
+No
+
+N
+Y
+BXPKey
+
+Key
+
+nvarchar(254), not null
+
+BXPLang
+
+Language
+
+nvarchar(10), not null
+
+BXPResNm
+
+Resource File Name
+
+nvarchar(254), not null
+
+BXPUser
+
+User Code
+
+nvarchar(8), not null
+
+BXPValue
+
+Value
+
+ntext(8), not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+37
+
+Yes
+
+PK Column
+
+Produmex SCAN Database Structure 18.2.
+6/4/2018
+
+Table name
+Field name
+
+Table description
+Field description
+
+BXPUSRLC
+
+UserLicense
+
+BXPEmpID
+
+EmployeeID
+
+int, not null
+
+BXPLcSN
+
+License Set Name
+
+nvarchar(50), not null
+
+BXPTermC
+
+Terminal Code
+
+nvarchar(8), not null
+
+BXPUsrn
+
+User Name
+
+nvarchar(25), not null
+
+BXPRowVr
+
+Last Modif.
+
+nvarchar(20), not null
+
+38
+
+Data type
+
+PK Table
+
+PK Column
+
+

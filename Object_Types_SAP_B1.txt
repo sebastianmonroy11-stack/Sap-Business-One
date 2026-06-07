@@ -1,0 +1,2148 @@
+Ar Products and Group Developer Partner Event Help Topic Explore
+
+Community Technology s s
+
+Qa
+
+s s Center Pages SAP
+
+SAP Community / Products and Technology / Enterprise Resource Planning / ERP Blog Posts by Members / List of object types - SAP Business One
+
+Enterprise Resource Planning Blog Posts by Members
+
+(a Search v (search
+
+List of object types - SAP Business One
+
+) Former Member
+
+105 Likes | @ 7,794,174
+
+SAP MANAGED TAGS
+
+SAP Business One | | SAP Business One Extensibility
+
+Hi all,
+
+Sign In to Subscribe “
+
+2017 Apr 27 2:42 AM
+
+Today, | would like to share with the community a list of object types of SAP Business One.
+
+On the community there is a lot of questions about object types and many post with object types list,but always it seems incomplete.
+So, the purpose of this post is share this information and create a knowledge base about object types.
+
+If you know some object type that is not presented on this list, please leave a comment on this post, then | will update this list.
+
+Table Table description Primary Key
+OACT G/LAccounts AcctCode
+OCRD _ Business Partner CardCode
+ODSC Bank Codes AbsEntry
+OITM _ Items ItemCode
+OVTG Tax Definition Code
+
+OPLN Price Lists ListNum
+OSPP _ Special Prices CardCode, ItemCode
+OITG Item Properties ItmsTypCod
+ORTM _ Rate Differences LineNum, IsSysCurr
+OCRG~ Card Groups GroupCode
+OCPR Contact Persons CntctCode
+OUSR Users USERID
+OINV — A/R Invoice DocEntry
+ORIN — A/R Credit Memo DocEntry
+ODLN Delivery DocEntry
+ORDN _ Returns DocEntry
+ORDR _ Sales Order DocEntry
+OPCH = A/P Invoice DocEntry
+ORPC  A/P Credit Memo DocEntry
+OPDN Goods Receipt PO DocEntry
+ORPD Goods Return DocEntry
+OPOR Purchase Order DocEntry
+
+OQUT Sales Quotation DocEntry
+
+Object Type
+
+OON DH PWN PB
+
+NIN NIN SIE PP PP PRB BoB
+ON FIO OC MN AHR WNHR SO
+ORCT
+ODPS
+
+OMTH
+
+OCHH
+OBTF
+OBTD
+OJDT
+olTw
+OADP
+OCLG
+ORCR
+ONNM
+OCRC
+OCRN
+OIDX
+OADM
+OCTG
+OPRF
+
+OBNK
+
+OMRC
+OCcQG
+OTRC
+OVPM
+OSRL
+OALC
+OSHP
+OLGT
+OWGT
+OITB
+OSLP
+
+OFLT
+
+OTRT
+OARG
+OCHO
+OINM
+OIGN
+OIGE
+OPRC
+OOCR
+OPRJ
+OWHS
+OCOG
+OITT
+OWTR
+OWKO
+OIPF
+OCRP
+OCDT
+OCRH
+
+OSCN
+
+Incoming Payment
+Deposit
+
+Reconciliation History
+
+Check Register
+Journal Voucher Entry
+Journal Vouchers List
+Journal Entry
+
+Items - Warehouse
+Print Preferences
+Activities
+
+Recurring Postings
+Document Numbering
+Credit Cards
+
+Currency Codes
+
+CPI Codes
+Administration
+Payment Terms
+Preferences
+
+External Bank Statement
+Received
+
+Manufacturers
+Card Properties
+Journal Entry Codes
+Outgoing Payments
+Serial Numbers
+Loading Expenses
+Delivery Types
+Length Units
+Weight Units
+
+Item Groups
+
+Sales Employee
+
+Report - Selection Criteria
+
+Posting Templates
+Customs Groups
+Checks for Payment
+Whse Journal
+
+Goods Receipt
+
+Goods Issue
+
+Cost Center
+
+Cost Rate
+
+Project Codes
+Warehouses
+Commission Groups
+Product Tree
+
+Inventory Transfer
+Production Instructions
+Landed Costs
+
+Payment Methods
+Credit Card Payment
+Credit Card Management
+
+Customer/Vendor Cat. No.
+
+DocEntry
+Deposid
+
+MthAcctCod, IsInternal,
+MatchNum
+
+CheckKey
+
+BatchNum, Transid
+BatchNum
+
+Transid
+
+ItemCode, WhsCode
+Printid
+
+ClgCode
+
+RcurCode, Instance
+ObjectCode, DocSubType
+CreditCard
+
+CurrCode
+
+IdexCode
+
+Code
+
+GroupNum
+FormNumber, UserSign
+
+AcctCode, Sequence
+
+FirmCode
+GroupCode
+TrnsCode
+DocEntry
+ItemCode, SerialNum
+AlcCode
+TrnspCode
+UnitCode
+UnitCode
+ItmsGrpCod
+SlpCode
+
+FormNum, UserSign,
+FilterName
+
+TrtCode
+CstGrpCode
+CheckKey
+TransNum, Instance
+DocEntry
+DocEntry
+PrcCode
+OcrCode
+PrjCode
+WhsCode
+GroupCode
+Code
+DocEntry
+OrderNum
+DocEntry
+CrTypeCode
+Code
+
+Absid, Instance
+
+ItemCode, CardCode,
+Substitute
+
+24
+25
+
+26
+
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+
+42
+
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+
+54
+
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+
+73
+OCRV
+ORTT
+ODPT
+OBGT
+OBGD
+ORCN
+OALT
+OALR
+OAIB
+OAOB
+OCLS
+OSPG
+SPRG
+OMLS
+OENT
+OSAL
+OTRA
+OBGS
+OIRT
+OUDG
+OSRI
+OFRT
+
+OFRC
+
+OOPR
+OOIN
+OOIR
+OOSR
+OOsT
+OOFR
+OCLT
+OCLO
+OISR
+
+OIBT
+
+OALI
+OPRT
+OCMT
+OUVV
+OFPR
+ODRF
+
+OSRD
+
+OUDC
+OPVL
+
+ODDT
+
+ODDG
+
+OUBR
+OUDP
+OWST
+OWTM
+OWDD
+OCHD
+
+Credit Payments
+
+CPI and FC Rates
+Postdated Deposit
+Budget
+
+Budget Cost Assess. Mthd
+Retail Chains
+
+Alerts Template
+
+Alerts
+
+Received Alerts
+
+Message Sent
+
+Activity Subjects
+
+Special Prices for Groups
+Application Start
+Distribution List
+Shipping Types
+
+Outgoing
+
+Transition
+
+Budget Scenario
+
+Interest Prices
+
+User Defaults
+
+Serial Numbers for Items
+Financial Report Templates
+
+Financial Report
+Categories
+
+Opportunity
+Interest
+
+Interest Level
+Information Source
+Opportunity Stage
+Defect Cause
+Activity Types
+Meetings Location
+Service Calls
+
+Batch No. for Item
+
+Alternative Items 2
+Partners
+Competitors
+
+User Validations
+Posting Period
+Drafts
+
+Batches and Serial
+Numbers
+
+User Display Cat.
+Lender - Pelecard
+
+Withholding Tax Deduction
+Hierarchy
+
+Withholding Tax Deduction
+Groups
+
+Branches
+
+Departments
+
+Confirmation Level
+Approval Templates
+
+Docs. for Confirmation
+Checks for Payment Drafts
+
+Absld, Payld, Instance
+RateDate, Currency
+Deposld
+
+Absid
+
+BgdCode
+ChainCode
+
+Code
+
+Code
+
+AlertCode, UserSign
+AlertCode, UserSign
+Code
+
+CardCode, ObjType, ObjKey
+LineNum, UserCode
+Code
+
+DocEntry
+
+DocEntry
+
+DocEntry
+
+Absid
+
+Numerator
+
+Code
+
+ItemCode, SysSerial
+Absid
+
+Templateld, Catld
+
+Opprid
+
+Num
+
+Num
+
+Num
+
+Num
+
+Num
+
+Code
+
+Code
+RequestNum
+
+ItemCode, BatchNum,
+WhsCode
+
+Origitem, Altitem
+Prtid
+
+Competid
+IndexID, LineNum
+AbsEntry
+DocEntry
+
+ItemCode, DocType, DocEntry,
+
+DocLineNum
+CodelD
+Code
+
+Numerator
+
+Numerator
+
+Code
+Code
+WstCode
+WtmCode
+WddCode
+CheckKey
+
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+
+96
+
+97
+98
+99
+100
+101
+102
+103
+104
+105
+
+106
+
+107
+108
+109
+110
+111
+112
+
+113
+
+114
+115
+
+116
+
+117
+
+118
+119
+120
+121
+122
+123
+CINF = Company Info Version 124
+
+OEXD Freight Setup ExpnsCode 125
+OSTA _ Sales Tax Authorities Code, Type 126
+OSTT _ Sales Tax Authorities Type | Absid 127
+OSTC Sales Tax Codes Code 128
+OCRY Countries Code 129
+OCST States Country, Code 130
+OADF Address Formats Code 131
+OCIN — A/R Correction Invoice DocEntry 132
+OCDC_ Cash Discount Code 133
+OQCN Query Catagories Categoryld 134
+OIND _ Triangular Deal Code 135
+ODMW Data Migration Code 136
+OCSTN Workstation ID Code 137
+OIDC Indicator Code 138
+OGSP Goods Shipment Code 139
+OPDF Payment Draft DocEntry 140
+OQWZ Query Wizard Code 141
+OASG = Account Segmentation Absld 142
+OASC Account Segmentation Segmentid, Code 143
+Categories
+OLCT Location Code 144
+OTNN = 1099 Forms FormCode 145
+ocyc Cycle Code 146
+OPYM Payment Methods for PayMethCod 147
+Payment Wizard
+OTOB 1099 Opening Balance VendCode, Form1089, 148
+Box1099
+ORIT Dunning Interest Rate Code 149
+OBPP _ BP Priorities PrioCode 150
+ODUN _ Dunning Letters LineNum 151
+CUFD _ User Fields - Description TablelD, FieldID 152
+OUTB User Tables TableName 153
+OCUMI My Menu Items UserSign , Id_ 154
+OPYD Payment Run Code 155
+OPKL Pick List AbsEntry 156
+OPWZ_ Payment Wizard IdNumber 157
+OPEX Payment Results Table AbsEntry 158
+OPYB Payment Block AbsEntry 159
+OUQR = Queries IntrnalKey, Qcategory 160
+OCBI Central Bank Ind. Indicator 161
+OMRV _ Inventory Revaluation DocEntry 162
+OcP! = A/P Correction Invoice DocEntry 163
+ocpv A/P Correction Invoice DocEntry 164
+Reversal
+ocs| = A/R Correction Invoice DocEntry 165
+ocsv A/R Correction Invoice Docentry 166
+Reversal
+OSCS _ Service Call Statuses statusID 167
+OSCT _ Service Call Types callTypelD 168
+OSCP _ Service Call Problem Types | prblmTypID 169
+OCTT Contract Template TmpltName 170
+OHEM Employees empliD 171
+OHTY Employee Types typelD 172
+
+OHST Employee Status statusID 173
+OHTR
+OHED
+OINS
+
+OAGP
+OWHT
+
+ORFL
+
+OVTR
+
+OBOE
+
+OBOT
+OFRM
+OPID
+
+ODOR
+OHLD
+
+OCRB
+
+OSST
+
+OSLT
+OCTR
+OSCL
+Osco
+OUKD
+OQUE
+OlWZ
+ODUT
+ODWZ
+OFCT
+OMSN
+OTER
+OOND
+OWOR
+ODPI
+ODPO
+OPKG
+OUDO
+ODOW
+
+ODOX
+
+OHPS
+OHTM
+OORL
+ORCM
+OUPT
+OPDT
+
+OBOX
+
+OCLA
+OCHF
+OCSHS
+OACP
+OATC
+
+Termination Reason
+Education Types
+Customer Equipment Card
+Agent Name
+
+Withholding Tax
+
+Already Displayed 347, 349
+and WTax Reports
+
+Tax Report
+
+Bill of Exchange for
+Payment
+
+Bill Of Exchang Transaction
+File Format
+
+Period Indicator
+
+Doubtful Debts
+
+Holiday Table
+
+BP - Bank Account
+
+Service Call Solution
+Statuses
+
+Service Call Solutions
+Service Contracts
+Service Calls
+Service Call Origins
+User Key Description
+Queue
+
+Inflation Wizard
+Dunning Terms
+Dunning Wizard
+Sales Forecast
+
+MRP Scenarios
+Territories
+
+Industries
+Production Order
+A/R Down Payment
+A/P Down Payment
+Package Types
+User-Defined Object
+Data Ownership - Objects
+Data Ownership -
+Exceptions
+
+Employee Position
+Employee Teams
+Relationships
+Recommendation Data
+User Autorization Tree
+Predefined Text
+
+Box Definition
+
+Activity Status
+
+312
+
+User-Defined Values
+Periods Category
+Attachments
+
+reasonID
+
+edType
+
+insID
+
+AgentCode
+
+WTCode
+
+DocEntry, ReportType,
+
+DocType, LineNum, TaxCode,
+
+OrdinalNum
+AbsEntry
+
+BoeKey
+
+AbsEntry
+AbsEntry
+Indicator
+AbsEntry
+HldCode
+
+Country, BankCode, Account,
+
+CardCode
+Number
+
+SltCode
+ContractID
+
+callID
+
+originID
+TableName, Keyld
+queuelD
+AbsEntry
+TermCode
+Wizardid
+
+AbsID
+
+AbsEntry
+territryID
+
+IndCode
+DocEntry
+DocEntry
+DocEntry
+PkgCode
+
+Code
+
+Object, SubObject
+
+Queryld, Object, SubObject
+
+posiD
+teamID
+OrlCode
+DocEntry
+Absid
+AbsEntry
+
+BoxCode, ReportType,
+BosCode
+
+statusID
+ObjName
+IndexID
+AbsEntry
+AbsEntry
+
+174
+175
+176
+177
+178
+
+179
+
+180
+
+181
+
+182
+183
+184
+185
+186
+
+187
+
+188
+
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+
+208
+
+209
+210
+211
+212
+213
+214
+215
+
+216
+
+217
+218
+219
+220
+221
+OGFL
+OLNG
+OMLT
+OAPA3
+OAPA4
+OAPAS
+
+SDIS
+
+OSVR
+DSC1
+RDOC
+
+ODGP
+
+OMHD
+OACG
+
+OBCA
+
+OCFT
+
+OCFW
+OBPL
+OJPE
+ODIM
+OSCD
+OSGP
+OMGP
+ONCM
+OCFP
+OTSC
+OUSG
+OCDP
+ONFN
+
+ONFT
+
+OCNT
+OTCD
+ODTY
+OPTF
+OIST
+OTPS
+OTFC
+OFML
+OCNA
+oTsl
+OTPI
+
+OccD
+
+ORSC
+ORSG
+ORSB
+
+OITR
+OPOS
+ODRF
+
+Grid Filter
+User Language Table
+Multi-Language Translation
+
+Dynamic Interface (Strings)
+
+Saved Reconciliations
+House Bank Accounts
+Document
+
+Document Generation
+Parameter Sets
+
+#740
+Account Category
+
+Bank Charges Allocation
+Codes
+
+Cash Flow Transactions -
+Rows
+
+Cash Flow Line Item
+Business Place
+
+Local Era Calendar
+
+Cost Accounting Dimension
+Service Code Table
+Service Group for Brazil
+Material Group
+
+NCM Code
+
+CFOP for Nota Fiscal
+CST Code for Nota Fiscal
+Usage of Nota Fiscal
+Closing Date Procedure
+Nota Fiscal Numbering
+Nota Fiscal Tax Category
+(Brazil)
+
+Counties
+
+Tax Code Determination
+BoE Document Type
+BoE Portfolio
+
+BoE Instruction
+
+Tax Parameter
+
+Tax Type Combination
+Tax Formula Master Table
+CNAE Code
+
+Sales Tax Invoice
+Purchase Tax Invoice
+
+Cargo Customs Declaration
+Numbers
+
+Resources
+
+Resource Properties
+ResGrpCod
+RecordSet
+
+Bridge
+
+Internal Reconciliation
+POS Master Data
+Stock Transfer Draft
+
+FormID, GridID, Usercode
+Code
+TranEntry
+
+Formid, Itemid, Columnid,
+Language
+acctCode
+AbsEntry
+DocCode
+
+AbsEntry
+
+AlertCode
+Absid
+
+Code
+
+CFTId
+
+CFWid
+BPLId
+
+Code
+DimCode
+AbsEntry
+AbsEntry
+AbsEntry
+AbsEntry
+
+ID
+
+ID
+
+ID
+ClsDateNum
+ObjectCode, DocSubType
+
+Absid
+
+Abslid
+Absid
+AbsEntry
+AbsEntry
+AbsEntry
+Absid
+Absid
+Abslid
+Absid
+DocEntry
+DocEntry
+
+CCDNum
+
+ResCode
+ResTypCod
+ResGrpCod
+
+ReconNum
+EquipNo
+DocEntry
+
+222
+223
+224
+225
+226
+227
+
+229
+
+230
+231
+232
+
+233
+
+234
+238
+
+239
+
+241
+
+242
+247
+250
+251
+254
+255
+256
+257
+258
+259
+260
+261
+263
+
+264
+
+265
+266
+267
+268
+269
+271
+275
+276
+278
+280
+281
+
+283
+
+290
+291
+292
+300
+305
+321
+541
+1179
+OMSG
+
+OBTN
+
+OSRN
+
+OIVK
+OlQR
+OFYM
+OSEC
+OCSN
+ONOA
+RTYP.
+OUGP
+OUOM
+OBFC
+OBAT
+OBSL
+OBIN
+ODNF
+OUGR
+OEGP
+
+OGPC
+
+ola
+OBTW
+OLLF
+
+OHET
+
+OTCX
+OPQT
+
+ORCP
+
+OCCT
+OACR
+ONFM
+OBFI
+OBBI
+OCPT
+OWTQ
+OOAT
+
+OKPI
+
+OTGG
+OCPN
+OROC
+OPSC
+
+ODTP
+
+OADT
+
+ODPA
+
+ODPP
+OACS
+OAGS
+
+Messaging Service Settings
+Batch Numbers Master
+Data
+
+Serial Numbers Master
+Data
+
+IVLVs OINM Keys
+Inventory Posting
+Financial Year Master
+Sections
+
+Certificate Series
+Nature of Assessee
+Document Type List
+UoM Group
+
+UoM Master Data
+
+Bin Field Configuration
+Bin Location Attribute
+Warehouse Sublevel
+Bin Location
+
+DNF Code
+Authorization Group
+E-Mail Group
+
+Government Payment
+Code
+
+Inventory Opening Balance
+Batch Attributes in Location
+Legal List Format
+
+Object: HR Employee
+Transfer
+
+Tax Code Determination
+Purchase Quotation
+
+Recurring Transaction
+Template
+
+Cost Center Type
+
+Accrual Type
+
+Nota Fiscal Model
+
+Brazil Fuel Indexer
+
+Brazil Beverage Indexer
+Cockpit Main Table
+Inventory Transfer Request
+Blanket Agreement
+
+Key Performance Indicator
+Package
+
+Target Group
+
+Campaign
+
+Retorno Operation Codes
+Product Source Code
+Fixed Assets Depreciation
+Types
+
+Fixed Assets Account
+Determination
+
+Fixed Asset Depreciation
+Areas
+
+Depreciation Type Pools
+Asset Classes
+
+Asset Groups
+
+USERID
+
+AbsEntry
+
+AbsEntry
+
+TransSeq
+DocEntry
+Absid
+Absid
+Absid
+Absid
+CODE
+UgpEntry
+UomEntry
+AbsEntry
+AbsEntry
+AbsEntry
+AbsEntry
+AbsEntry
+Groupld
+EmlGrpCode
+
+Abslid
+
+DocEntry
+AbsEntry
+AbsEntry
+
+TransferlD
+
+DocEntry
+DocEntry
+
+AbsEntry
+
+CctCode
+Code
+AbsEntry
+ID
+
+ID
+AbsEntry
+DocEntry
+AbsID
+
+AbsEntry
+
+TargetCode
+CpnNo
+AbsEntry
+Code
+
+Code
+
+Code
+
+Code
+
+Code
+Code
+Code
+
+10000105
+
+10000044
+
+10000045
+
+10000062
+10000071
+10000073
+10000074
+10000075
+10000077
+10000196
+10000197
+10000199
+10000203
+10000204
+10000205
+10000206
+140000041
+231000000
+234000004
+
+243000001
+
+310000001
+310000008
+410000005
+
+480000001
+
+540000005
+540000006
+
+540000040
+
+540000042
+540000048
+540000056
+540000067
+540000068
+1210000000
+1250000001
+1250000025
+
+1320000000
+
+1320000002
+1320000012
+1320000028
+1320000039
+
+1470000000
+
+1470000002
+
+1470000003
+
+1470000004
+1470000032
+1470000046
+G/LAccount Determination
+
+opmc Criteria - Inventory Dmeid
+
+OACQ_ Capitalization DocEntry
+OGAR G/L Account Advanced AbsEntry
+
+Rules
+
+OACD- Credit Memo DocEntry
+OBCD Bar Code Master Data BcdEntry
+OINC _ Inventory Counting DocEntry
+OEDG __ Discount Groups AbsEntry
+OCCS Cycle Count Determination WhsCode
+OPRQ_ Purchase Request DocEntry
+OWLS Workflow - Task Details TaskID
+
+That’s all folks, hope it helps.
+
+1470000048
+
+1470000049
+
+1470000057
+
+1470000060
+1470000062
+1470000065
+1470000077
+1470000092
+1470000113
+1620000000
+
+Leave your feedback about this subject and share your experience about it.
+
+Kind Regards,
+
+Diego Lother
+
+53 Comments
+
+® Former Member _
+2017 Apr 27 1:22 PM
+| 1Like
+
+Tks Diego!
+
+former_member122995,
+
+Explorer 2017 May 02 5:41 AM
+
+(6)
+
+Hi Diego Lother,
+
+Excellent information on a single webpage...
+
+Regards
+
+Muhammad Akbar
+
+® Former Member —
+
+2017 May 05 12:32 PM
+© | Like
+
+Great . Thanks
+
+® Former Member -_
+
+2017 May 09 10:28 AM
+| 3Likes
+
+Finally, someone did the effort to bring them all together.
+
+Thanks a lot.
+
+Danny
+
+® Former Member _
+
+2017 May 17 12:32 PM
+©) | Like
+
+Very helpfull
+
+Thanks a lot.
+
+® Former Member ad
+
+2017 May 24 10:52 AM
+© | iLike
+
+Hi Diego,
+
+It is very useful, thanks for your effort.
+
+Daniel
+
+® Former Member
+
+2017 Jun 05 10:13 PM
+© | OLikes
+
+Thanks Diego!
+
+By the way, can you add the object type 1470000953 plese. Or tell my where to find this info?
+
+® Former Member _
+
+2017 Jun 07 12:00 AM
+© | OLikes
+
+Hi Adolfo,
+
+Where did you see this object type? You know about what screen of SAP Business One this object type is related and what is the version of SAP
+Business One you saw this object type?
+Kind Regards,
+
+Diego Lother
+
+® Former Member =
+
+2017 Jun 12 3:58 PM
+O Likes
+
+Hi Adolfo and Diego
+
+That number is for the Purchase Request Report form ID.
+
+Kind regards
+
+former_member469156 -
+Discoverer
+
+(am
+
+Hi Diego, thanks for your contribution
+
+2017 Aug 25 3:13 PM
+
+Somebody knows an HANA query for retrieving all the "Object Type" list?
+
+Thanks in advance.
+
+® Former Member a
+
+2017 Aug 25 4:58 PM
+© | OLikes
+
+Hi Tommaso,
+
+The object types are the same on SQL or Hana. | unfortunately believe there is no way by query, to retrieve a list of Object types. | did this list
+based on SDK documentation and a lot of hard work.
+
+Kind Regards,
+
+Diego Lother
+
+former_member469156 “
+Discoverer
+
+a )
+
+Hi Diego: so this web page with your list should protected by the UNESCO @
+
+2017 Aug 28 4:55 PM
+
+Thank's again for your work.
+
+Tommaso
+former_member400215, ad
+Explorer
+
+© | 2Likes
+
+tankyouso much men.
+
+2017 Nov 02 2:35 AM
+
+former_member538845, “
+Member
+
+O Likes
+
+Is there any table exist in SAP Business One which contains the Objects Id as well as Object Name so we can make so good reports based on
+this for user?
+
+2017 Nov 08 6:18 AM
+
+® Former Member 7
+2017 Nov 08 10:39 AM
+© | OLikes
+
+Hi Divyesh,
+
+Unfortunately there is no table on SAP Business One with this information.
+Kind Regards,
+
+Diego Lother
+
+® Former Member -
+
+2018 Jan 03 11:03 AM
+| Like
+
+Thanks a lot for sharing this document, it is very use full document
+
+former_member17180 we
+
+Newcomer 2018 Feb 14 12:57 PM
+
+(lm)
+
+Thank you Diego
+
+Really Resourceful
+
+® Former Member -
+2018 Apr 13 5:44 PM
+oc
+
+Thanks, excellent information.
+
+Regards,
+
+former_member122995 “
+Explorer
+
+O Likes
+
+Great information on a single page on SAP Business One object types.
+
+2018 Jul 16 11:01 AM
+
+Muhammad Akbar
+
+former_member227145 “
+Explorer
+
+(6m)
+
+Hi Diego,
+
+2018 Jul 31 7:05 AM
+
+There are two new objects in SAP Business One 9.3.
+They are 'Return Request (ORRR)' and 'Goods Return Request (OPRR).
+Hope you can update the list.
+
+Thanks for your effort.
+
+® Former Member _
+2018 Aug 10 8:33 AM
+© | OLikes
+
+Hi Diego,
+
+Thanks for information. Its really helpful. Can we create a custom object type and assign a custom table to that object type ?
+
+Thanks,
+
+Prakash
+User-Defined Tables - Setup
+
+# Table Name _ Description | Object Type.
+“ACO_ATT | Attachment Control 7No Object
+
+2 ACOLFILE PATH File location No Object
+“ACO_PAR (EEE No Object
+
+| No Object
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+[
+
+petljub ”
+Discoverer 2018 Oct 05 2:38 AM
+
+Hi Diego
+
+Thanks for the list.
+
+TO: chia-wei.hsu
+
+You can easily get this information for Marketing Documents, etc. by looking at entries added to the header table. The table for the RMA (Return
+Request) is ORRR and the Object Types are written to the ObjType column, in this case 234000031.
+
+Kind regards
+
+Peter Juby
+
+® Former Member -
+
+2018 Oct 10 9:20 PM
+
+Hi Diego, great contente.
+
+This list can also be seen on the SDK enum called BoObjectTypes on the SAPbobsCOM, although the reason I came to this page is because
+there're some missing objects on this enum.
+For example, I'm trying to add a Resource via SDK, but | only found that the object type for Resources is 290 on this page.
+Then, when | use it in C#, it brought all the Properties of this object, so, Success.
+BUT, it doesn't brought the GetByKey, so I'm helpless trying to modify na already existing Resource.
+
+Does anyone have any solution on how to get a Resource in SDK?
+
+Best regards,
+
+Aréo Benjamin
+
+® Former Member =
+
+2018 Dec 07 12:16 AM
+O Likes
+
+Hi Diego, great contente.
+
+What's the Object Type of ADOC?
+
+former_member219812 ad
+
+Participant 2019 Jan 09 8:28 PM
+
+©) | OLikes
+
+Excelent! Precisely what i was looking for!... Thank you very much for this!!!... (y)
+
+former_member188586 “
+
+Active Contributor 2019 Feb 26 6:55 AM
+
+Excelent Job
+
+former_member632640 “
+
+Discoverer
+
+0 Likes
+
+Hi Diego Can you help me?
+
+2019 Sep 26 5:01 PM
+
+can | modify payment run date in payment wizard?
+SQL Query, DTW???
+
+Thanks
+
+Ezioze “
+
+Explorer 3019 Oct 25 10:00 AM
+
+0 Likes
+
+Hi Diego.
+
+New ORST table (Route stages) Object type: 296 Primary Key: AbsEntry
+
+® Former Member ae
+
+2019 Dec 20 5:01 AM
+© | OLikes
+
+Hi Diego,
+
+What table and table description for object type = '10000068'?
+Thanks
+
+Stephen
+
+kenan_jaddeny bad
+Contributor
+
+© | OLikes
+
+Iwas wondering about; if these details being stored in any table in SQL database? thx
+
+2020 Jan 27 6:52 PM
+
+krishnkumar_be ”
+
+Participant 2020 Feb 11 7:05 AM
+
+or
+
+OPMG - Project Management - 234000021
+
+former_member10430 ”
+Explorer
+2020 Apr 09 12:10 PM
+
+© | OLikes
+
+Hello,
+
+l always rely on this useful guide.
+Please, where can | find a table in SBO in order to display automatically in SQL query the correspondant name for the Object Id?
+
+Thanks in Advance
+
+andytorres “~
+Member
+
+O Likes
+
+No data fetch when i use on CFL this object type1470000113.
+
+A
+
+2020 Aug 06 8:55 AM
+
+® Former Member we
+2020 Oct 19 9:05 AM
+© | OLikes
+
+Thanks Diego, very helpfull !!
+
+former_member183402 ad
+
+Participant 2020 Nov 20 8:57 AM
+
+(sm)
+
+Hi Diego,
+
+What is the object type of EmployeeAbsenceinfo (HEM1) ?
+
+m_felicella aad
+
+Participant 2020 Nov 20 11:32 AM
+
+© | OLikes
+
+The number associated with the object type refers only to the parent. To access the children you have to open the father (171) in your case and
+update all the children. Do you need it with SLIDES or Service Layers?
+
+former_member183402 “
+Participant 2020 Nov 20 12:04 PM
+© | OLikes
+I'm using DI API
+
+What | want is to add data of Absence to the Employee data
+Below codes add Employee first and last name successfully
+
+$oEmp=$mycomp->GetBusinessObject (171) ;
+$oEmp->firstName="Schadrack";
+$oEmp->lastName="Rurangwa" ;
+$oEmp->Add;
+
+PwWwWNnNP
+
+But | tried to add Absence data to the employee | failed, I tried below codes
+
+$oEmp=$mycomp- >GetBusinessObject (171) ;
+$oEmp->firstName="Schadrack";
+$oEmp->lastName="Rurangwa" ;
+
+$oEmp->lines->Add;
+$oEmp->Lines->fromDate="2020-11-15";
+$oEmp->Lines ->toDate="2020-11-20";
+$oEmp->Add;
+
+ONAUAWNHE
+
+The confusion | have is, | don't have the reference which will separate Absence table with other tables for example Education, Reviews and so
+on
+
+Please anyone can help me
+
+m_felicella “
+
+Participant 2020 Nov 20 2:10 PM
+
+Try this sample:
+
+C:\Program Files (x86)\sap\SAP Business One SDK\Samples\COM DI\CSharp\05.order
+
+former_member609078 “
+
+Explorer 2021 Mar 18 10:24 AM
+
+(om)
+
+Thanks for Guide, my 5 cents:
+
+234000032 - Goods Return Request (AP Side) Table OPRR
+
+JoergAldinger id
+Active Contributor
+
+© | OLikes
+
+Hello diego.lother
+
+2021 Apr 15 9:41 PM
+
+Thanks for the post!
+
+You might want to add this one, too:
+« 10000013 - Unreported VAT transactions - Table OUTX
+
+Thanks!
+
+Joerg.
+
+rafael_ogeda ”
+Participant
+
+O Likes
+
+Hi. Anyone knows the object 14700004547
+
+2021 May 28 3:03 PM
+
+We received the following response from DI-API after trying to insert a purchase request (1470000113/OPRQ®
+
+“Exception : DI Error: (-5002) 1470000454 - Specify the e-mail address [OPRQ.Email]-The di call #1 did fail”
+
+a former_member773264 “
+Discoverer
+
+1 Like
+
+Hi Anyone knows the Objld "10000068" ?
+
+2021 Oct 25 7:33 AM
+
+AbsEntry LineNum SnBindex ttemCode © WhsCode Objld ObjAbs DrfWObjAbs Quantity SubLineNum ObjType _Loginstanc
+ae 0 0 B10000 a 10000044 67 A 7.000000 -1 NULL NULL
+2 28 t) 0 810000 01 ' 1 A 1.000000 -1 NULL NULL
+a be ) 0 MRP_tem3 01 70000068 2 A 7.000000 -1 NULL NULL
+a former_member773264 ad
+
+Discoverer 2021 Oct 27 6:46 AM
+| 1Like
+it's ok Q .ifind it.
+
+Objld "10000068"
+Table ID "ODBN"
+
+Batches Draft Table
+
+sap_beginner_ahmed -
+Explorer
+
+O Likes
+
+Is there a table in the database that contains the same data?
+
+A
+
+2022 Jul 18 7:16 AM
+
+former_member183402 ad
+Participant
+
+(6am)
+
+Hi Diego,
+
+2022 Aug 30 4:47 PM
+
+What is the object type of Timesheet form which is under Human Resources module in SAP B1 9.2 PL10?
+
+former_member870533 ~
+Explorer
+
+O Likes
+
+can someone explain to me please where i can get the object id for return request ORRR. the comment above seems to be for the return ORDN,
+not for the return request:
+
+2023 Aug 01 11:44 AM
+
+hi,
+
+petljub
+
+“You can easily get this information for Marketing Documents, etc. by looking at entries added to the header table. The table for the RMA
+(Return Request) is ORRR and the Object Types are written to the ObjType column, in this case 234000031."
+
+also, i'm not sure what you mean Peter by looking at ‘entries to the header table’. i'm a bit new to this. what does this mean? do you mean
+system info? that doesn't seem to match up with the other numbers Diego has on his list...
+
+thanks
+ruth
+p petljub baad
+Discoverer 9923 Sep 29 12:08 AM
+1 Like
+
+Hi Ruth
+
+Only saw this post now, if you are still needing assistance, SELECT DISTINCT ObjType FROM ORRR will give you the info. If you run SELECT
+DISTINCT ObjType FROM OINV it will return 13 for example.
+
+Kind regards
+
+Peter Juby
+
+vfssantos0O ae
+Member
+
+O Likes
+
+2023 Oct 10 7:03 PM
+
+I think that people getting here might be interested in this open source repository containing this information in a JSON format.
+Using github API, you (or your application) can consume this content dynamically via an API call, and filter based on your needs.
+You are welcome to contribute and add new data types by submitting a PR, and maintaining it's content up-to-date.
+
+https://github.com/AxionCompany/sapb1-datatypes-tables
+
+Best,
+
+Vinicius Santos
+
+former_member870533 -
+Explorer 2023 Oct 25 10:13 AM
+© | OLikes
+Thanks a lot.
+
+that's very helpful
+
+mucipilbuga =
+
+Participant 2024 May 23 8:26 AM
+
+(sm)
+
+Dear Diego Lother,
+
+Thanks a lot for very valuable information. But what about table field definitions?
+
+Regards,
+
+Mucip:)
+
+You must be a registered user to add a comment. If you've already registered, sign in. Otherwise, register and sign in.
+
+Comment
+
+=<
+
+Related Content
+
+What a Document Al Workshop Taught Me About Clean Core
+in Enterprise Resource Planning Blog Posts by Members Friday
+
+Building a Procurement Agent for SAP S/4HANA Cloud Private Edition with SAP Joule Studio — Part 2
+in Enterprise Resource Planning Blog Posts by SAP Friday
+
+Controlling Field Copy Behavior in Sales Contract Assignment
+in Enterprise Resource Planning Blog Posts by SAP Friday
+
+The business requires a discount field at the Purchase Order item
+
+in Enterprise Resource Planning Q&A Wednesday
+
+What We Learned Hosting a SAP Document Al Workshop
+in Enterprise Resource Planning Blog Posts by Members Wednesday
+
+Top Liked Authors
+
+@& Bohdan & 12
+me Nicolas_BacaStorni o9
+é Leelamohan O6
+& RaghavanKathamuthu oO6
+M_ Mrinal_K_Roy os
+A alexey_danshin oO5
+| LOURDES_16 05
+é Kerisha123 O4
+g mnabood 3
+D>
+& Aravindha 3
+View all >
+
+Privacy TermsofUse Copyright Legal Disclosure Trademark Support Cookie Preferences Folow f % @
